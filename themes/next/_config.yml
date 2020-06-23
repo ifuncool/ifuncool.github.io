@@ -408,7 +408,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host:
@@ -428,13 +428,13 @@ font:
   title:
     external: true
     family:
-    size:
+    size: 0.875
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
     family:
-    size:
+    size: 1.42
 
   # Font settings for posts (.post-body).
   posts:
