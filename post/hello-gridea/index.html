@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="keywords" content="挖掘鲜为人知的实用小技巧或小知识，并尽力分享给更多的人食用">
+<meta name="description" content="挖掘鲜为人知的实用小技巧或小知识，并尽力分享给更多的人食用">
+<meta name="theme-color" content="#222222">
+<title>蓝灯常见问题解决办法 | 趣读</title>
+<link rel="shortcut icon" href="/favicon.ico?v=1616235572652">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/media/css/pisces.css">
+
+<link rel="stylesheet" href="/media/fonts/font-awesome.css">
+<link
+  href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Rosario:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext"
+  rel="stylesheet" type="text/css">
+
+<link href="/media/hljs/styles/androidstudio.css"
+  rel="stylesheet">
+
+<script src="/media/hljs/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.0/velocity.ui.min.js"></script>
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
+
+  <meta name="description" content="蓝灯常见问题解决办法" />
+  <meta name="keywords" content="Gridea" />
+</head>
+
+<body>
+  <div class="head-top-line"></div>
+  <div class="header-box">
+    
+<div class="pisces">
+  <header class="header  ">
+    <div class="blog-header box-shadow-wrapper bg-color " id="header">
+      <div class="nav-toggle" id="nav_toggle">
+        <div class="toggle-box">
+          <div class="line line-top"></div>
+          <div class="line line-center"></div>
+          <div class="line line-bottom"></div>
+        </div>
+      </div>
+      <div class="site-meta">       
+        <div class="site-title">
+          
+            <a href="/" class="brand">
+              <span>趣读</span>
+            </a>  
+          
+        </div>
+        
+          <p class="subtitle">发现有用的资料</p>
+        
+      </div>
+      <nav class="site-nav" id="site_nav">
+        <ul id="nav_ul">
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/" target="_self">
+                  <i class="fa fa-home"></i> 首页
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/post/about/" target="_self">
+                  <i class="fa fa-user"></i> 关于
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/tags/" target="_self">
+                  <i class="fa fa-tags"></i> 标签
+                </a>
+              
+            </li>
+          
+            
+            
+              
+            
+            <li class="nav-item ">
+              
+              
+                <a href="/archives/" target="_self">
+                  <i class="fa fa-archive"></i> 归档
+                </a>
+              
+            </li>
+          
+          
+            
+              <li class="nav-item ">
+                <a href="/friends/" target="_self">
+                  
+                    <i class="fa fa-address-book"></i> 友情链接
+                  
+                </a>
+              </li>
+            
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<script type="text/javascript"> 
+ 
+  let showNav = true;
+
+  let navToggle = document.querySelector('#nav_toggle'),
+  siteNav = document.querySelector('#site_nav');
+  
+  function navClick() {
+    let sideBar = document.querySelector('.sidebar');
+    let navUl = document.querySelector('#nav_ul');
+    navToggle.classList.toggle('nav-toggle-active');
+    siteNav.classList.toggle('nav-menu-active');
+    if (siteNav.classList.contains('nav-menu-active')) {
+      siteNav.style = "height: " + (navUl.children.length * 42) +"px !important";
+    } else {
+      siteNav.style = "";
+    }
+  }
+
+  navToggle.addEventListener('click',navClick);  
+</script>
+  </div>
+  <div class="main-continer">
+    
+    <div
+      class="section-layout pisces ">
+      <div class="section-layout-wrapper">
+        
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+        <div class="post-list-sidebar">
+          <div class="sidebar-title">
+            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active">文章目录</span>
+            <span id="metaSideBar" class="sidebar-title-item">站点概览</span>
+          </div>
+        </div>
+      
+      <div class="sidebar-body pisces" id="sidebar_body">
+        
+          
+            
+<div class="sidebar-wrapper box-shadow-wrapper bg-color">
+  <div class="sidebar-item">
+    <img class="site-author-image right-motion" src="/images/avatar.png"/>
+    <p class="site-author-name">ifun</p>
+    
+    <div class="site-description right-motion">
+      
+      
+      
+        <p>挖掘鲜为人知的实用小技巧或小知识，并尽力分享给更多的人食用</p>
+      
+      
+    </div>
+    
+  </div>
+  <div class="sidebar-item side-item-stat right-motion">
+    <div class="sidebar-item-box">
+      <a href="/archives/">
+        
+        <span class="site-item-stat-count">2</span>
+        <span class="site-item-stat-name">文章</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="">
+        <span class="site-item-stat-count">1</span>
+        <span class="site-item-stat-name">分类</span>
+      </a>
+    </div>
+    <div class="sidebar-item-box">
+      <a href="/tags/">
+        <span class="site-item-stat-count">1</span>
+        <span class="site-item-stat-name">标签</span>
+      </a>
+    </div>
+  </div>
+  
+    
+      <div class="sidebar-item" style="border-top: 1px dotted #ccc; margin-top: 10px;">
+      </div>
+    
+  
+  
+
+
+</div>
+          
+        
+      </div>
+    </div>
+  
+</div>
+<script>
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
+
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+        <div class="section-box box-shadow-wrapper">
+          <div class="section bg-color post post-page">
+            <header class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://iread.life/post/hello-gridea/">
+      蓝灯常见问题解决办法
+    </a>
+  </h1>
+  <div class="post-meta">
+    
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span>发布于</span>
+      <span>2018-12-12</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
+    
+    <span class="meta-item">
+      <i class="fa fa-folder-o"></i>
+      <span class="pc-show">分类于</span>
+      
+      
+      <a href="https://iread.life/tag/orBDFinua/">
+        <span>Gridea</span>
+      </a>
+      
+      
+    </span>
+    <span class="post-meta-divider">|</span>
+    
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>4分钟</span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>855<span class="pc-show">字数</span></span>
+    </span>
+    
+    
+    
+    <span id="/post/hello-gridea/" data-flag-title="蓝灯常见问题解决办法" class="meta-item pc-show leancloud_visitors">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-eye"></i>
+      <span>浏览量：<span class="leancloud-visitors-count"></span></span>
+    </span>
+    
+  </div>
+</header>
+            <div class="post-body next-md-body" id="post_body">
+              <p><strong>自行解决问题通常只需要几十分钟,管理员调查解决问题需要几天至几周。以下是问题自助解决方案，可以自行解决95%以上的问题。</strong></p>
+<p>1、卸载蓝灯，然后删除整个文件夹<code>c:\Users&lt;用户名&gt;\AppData\Roaming\Lantern</code>后，安装<a href="https://iread.life/2020/07/02/%E8%93%9D%E7%81%AFLantern%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/">最新版</a></p>
+<p>2、请使用管理员权限<strong>安装和启动</strong>。</p>
+<p>3、Windows防火墙配置错误: 请把Windows防火墙关闭再重新打开，或者一直保持关闭。</p>
+<p><a id="more"></a></p>
+<p>4、系统配置错乱: 创建一个新的Windows用户后，在这个新Windows用户下安装<a href="https://iread.life/2020/07/02/%E8%93%9D%E7%81%AFLantern%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/">蓝灯最新版</a>。控制面板-用户账户-管理账户-在电脑配置中添加新用户-将其他人添加到这台电脑。</p>
+<p>5、蓝灯没有成功设置系统代理: 请打开蓝灯-设置-高级设置-管理系统代理-打勾。 Windows系统，请打开控制面板的Internet选项-&gt;连接-&gt;局域网设置-&gt;代理。手工把代理设成地址127.0.0.1，端口。<strong>端口每个用户都不同，具体请见蓝灯-设置-高级设置里面显示的HTTP代理服务器端口。 Mac系统，请打开Safari-偏好设置-高级-更改设置（“代理”旁边）- HTTP代理 设成地址127.0.0.1，端口</strong>。</p>
+<p>6、确保系统时间正确，几小时也不能差。</p>
+<p>7、请勿使用国产的杀毒软件，会干扰翻墙软件。</p>
+<p>8、蓝灯与迅雷极速版冲突，请使用普通的迅雷。</p>
+<p>9、host文件出错: Windows系统请删除 C:\Windows\System32\drivers\etc 下的host文件。Mac系统请删除 /private/etc/ 下的hosts文件</p>
+<p>10、系统代理被篡改: 打开注册表编辑器，找到HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Internet Settings 分支，把它下面以 Proxy 打头的键值对（如ProxyEnable，ProxyOverride，有的是ProxyServer）改名或全部删除。</p>
+<p>11、将Lantern更新到最新版本，重启Lantern更新或到<a href="https://iread.life/2020/07/02/%E8%93%9D%E7%81%AFLantern%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/">Get lantern download</a> 下载手动更新。</p>
+<p>12、Lantern续费后时间没更新：重启Lantern即可。</p>
+<p>13、授权设备可以用如下方法： －在lantern界面左边菜单点击“授权设备使用专业版”，在里面输入购买时的邮箱，激活码就会发到你的邮箱，然后输入激活码即可； －在新设备选择“授权设备使用专业版”，该界面会收到验证码，然后请到专业版设备输入验证码。</p>
+<p>14、建议使用chrome／firefox，不要用360这类浏览器。 如chrome不能用： 这种可能是chrome的代理被其他软件接管了，请到chrome://net-internals/#proxy 验证如下设置是否和lantern设置&gt;高级设置里的一致。如果不一样，请检查软件或chrome的代理插件并修复。 Proxy server for HTTP: Proxy server for HTTPS:</p>
+<p>如firefox不能用： 到设置里把代理改为“使用系统代理”</p>
+<p>其他：不要使用乱七八糟的系统清理软件，可能会造成系统配置错乱。这样的情况只能重装系统，推荐Windows 10或者MacOS Mojave。微软已经不支持XP系统。</p>
+<p><strong>自行解决问题通常只需要几十分钟,管理员调查解决问题需要几天至几周。</strong> 若各位无法按照本帖自行解决，愿意等待管理员人为调查的，请在应用内报告问题。</p>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iread.life@740-90 -->
+<p><ins class="adsbygoogle"
+     style="display:inline-block;width:740px;height:90px"
+     data-ad-client="ca-pub-9623514389930510"
+     data-ad-slot="9558655004"></ins></p>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            </div>
+            <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      ifun
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://iread.life/post/hello-gridea/" title="蓝灯常见问题解决办法">https://iread.life/post/hello-gridea/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+      <a href="https://iread.life/tag/orBDFinua/"># Gridea</a>
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+        <i class="fa fa-chevron-left"></i>
+        <a class="nav-pc-next" title="欢迎来到" href="https://iread.life/post/huan-ying-lai-dao/">欢迎来到</a class="nav-pc-next">
+        <a class="nav-mobile-prev" title="欢迎来到" href="https://iread.life/post/huan-ying-lai-dao/">上一篇</a>
+      
+    </div>
+    <div class="nav-next">
+      
+    </div>
+  </div>
+</div>
+            
+  
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-box">
+  <footer class="footer">
+    <div class="copyright">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | © 2019-2020 Theme By <a href="https://github.com/hsxyhao/gridea-theme-next" target="_blank">HsxyHao</a>
+    </div>
+    <div class="poweredby">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+  </footer>
+  
+  
+  <div class="pisces back-to-top" id="back_to_top">
+    <i class="fa fa-arrow-up"></i>
+    
+    <span class="scrollpercent">
+      <span id="back_to_top_text">0</span>%
+    </span>
+    
+  </div>
+  
+  
+  
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
+  <div class="aplayer" id="aplayer"></div>
+  <script>
+  let musics = JSON.parse('[{"author":"咻咻满","cover":"https://p1.music.126.net/xIJohcSJ-2xKpGjUbVBf2g==/109951164596182048.jpg?param=140y140","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=1413495901.mp3","musicName":"执刀"},{"author":"咻咻满","cover":"http://p2.music.126.net/43LqWnHh3uRRpZZ38kOwFA==/109951164817742740.jpg","lrc":"","musicLink":"http://music.163.com/song/media/outer/url?id=1385512021.mp3","musicName":"孽海记"}]');
+  let mediaMusic = [];
+  for (let i = 0; i < musics.length; i++) {
+    let item = musics[i];
+    mediaMusic.push({
+      name: item.musicName,
+      artist: item.author,
+      url: item.musicLink,
+      lrc: item.lrc,
+      cover: item.cover
+    });
+  }
+
+  const ap = new APlayer({
+      container: document.getElementById('aplayer'),
+      fixed: true,
+      lrcType: 3,
+      listFolded: false,
+      listMaxHeight: 90,
+      audio: mediaMusic
+  });
+  window.addEventListener('load', function() {
+    let postBody = document.querySelector('#post_body');
+    let hs = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'];
+    postBody && hs.forEach(h => {
+      let helems = postBody.querySelectorAll(h);
+      if (helems.length > 0) {
+        helems.forEach(elem => {
+          elem.id = encodeURI(elem.id);
+        })
+      }
+    })
+  })
+  </script>
+
+
+  
+</div>
+<script>
+
+  let sideBarOpen = 'sidebar-open';
+  let body = document.body;
+  let back2Top = document.querySelector('#back_to_top'),
+  back2TopText = document.querySelector('#back_to_top_text'),
+  drawerBox = document.querySelector('#drawer_box'),
+  rightSideBar = document.querySelector('.sidebar'),
+  viewport = document.querySelector('body');
+
+  function scrollAnimation(currentY, targetY) {
+   
+    let needScrollTop = targetY - currentY
+    let _currentY = currentY
+    setTimeout(() => {
+      const dist = Math.ceil(needScrollTop / 10)
+      _currentY += dist
+      window.scrollTo(_currentY, currentY)
+      if (needScrollTop > 10 || needScrollTop < -10) {
+        scrollAnimation(_currentY, targetY)
+      } else {
+        window.scrollTo(_currentY, targetY)
+      }
+    }, 1)
+  }
+
+  back2Top.addEventListener("click", function(e) {
+    scrollAnimation(document.scrollingElement.scrollTop, 0);
+    e.stopPropagation();
+    return false;
+  });
+  
+  window.addEventListener('scroll', function(e) {
+    let percent = document.scrollingElement.scrollTop / (document.scrollingElement.scrollHeight - document.scrollingElement.clientHeight) * 100;
+    if (percent > 1 && !back2Top.classList.contains('back-top-active')) {
+      back2Top.classList.add('back-top-active');
+    }
+    if (percent == 0) {
+      back2Top.classList.remove('back-top-active');
+    }
+    if (back2TopText) {
+      back2TopText.textContent = Math.floor(percent);
+    }
+  });
+
+  
+  let hasCacu = false;
+  window.onresize = function() {
+    if (window.width > 991) {
+      calcuHeight();
+    } else {
+      hasCacu = false;
+    }
+  }
+
+  function calcuHeight() {
+    // 动态调整站点概览高度
+    if (!hasCacu && back2Top.classList.contains('pisces') || back2Top.classList.contains('gemini')) {
+      let sideBar = document.querySelector('.sidebar');
+      let navUl = document.querySelector('#site_nav');
+      sideBar.style = 'margin-top:' + (navUl.offsetHeight + navUl.offsetTop + 15) + 'px;';
+      hasCacu = true;
+    }
+  }
+  calcuHeight();
+  
+  let open = false, MOTION_TIME = 300, RIGHT_MOVE_DIS = '320px';
+
+  if (drawerBox) {
+    let rightMotions = document.querySelectorAll('.right-motion');
+    let right = drawerBox.classList.contains('right');
+
+    let transitionDir = right ? "transition.slideRightIn" : "transition.slideLeftIn";
+
+    let openProp, closeProp;
+    if (right) {
+      openProp = {
+        paddingRight: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingRight: '0px'
+      };
+    } else {
+      openProp = {
+        paddingLeft: RIGHT_MOVE_DIS 
+      };
+      closeProp = {
+        paddingLeft: '0px'
+      };
+    }
+
+    drawerBox.onclick = function() {
+      open = !open;
+      window.Velocity(rightSideBar, 'stop');
+      window.Velocity(viewport, 'stop');
+      window.Velocity(rightMotions, 'stop');
+      if (open) {
+        window.Velocity(rightSideBar, {
+          width: RIGHT_MOVE_DIS
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, transitionDir,{ });
+          }
+        })
+        window.Velocity(viewport, openProp,{
+          duration: MOTION_TIME
+        });
+      } else {
+        window.Velocity(rightSideBar, {
+          width: '0px'
+        }, {
+          duration: MOTION_TIME,
+          begin: function() {
+            window.Velocity(rightMotions, {
+              opacity: 0
+            });
+          }
+        })
+        window.Velocity(viewport, closeProp ,{
+          duration: MOTION_TIME
+        });
+      }
+      for (let i = 0; i < drawerBox.children.length; i++) {
+        drawerBox.children[i].classList.toggle('muse-line');
+      }
+      drawerBox.classList.toggle(sideBarOpen);
+    }
+  }
+
+  // 链接跳转
+  let newWindow = 'true'
+  if (newWindow === 'true') {
+    let links = document.querySelectorAll('.post-body a')
+    links.forEach(item => {
+      if (!item.classList.contains('btn')) {
+        item.setAttribute("target","_blank");
+      }
+    })
+  }
+  // 代码高亮
+  hljs.initHighlightingOnLoad();
+
+</script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px; border: 1px solid #fff; border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
+</script>
+  </div>
+</body>
+<input hidden id="copy" />
+<script>
+  //拿来主义(真香)^_^，Clipboard 实现摘自掘金 https://juejin.im/post/5aefeb6e6fb9a07aa43c20af
+  window.Clipboard = (function (window, document, navigator) {
+    var textArea,
+      copy;
+
+    // 判断是不是ios端
+    function isOS() {
+      return navigator.userAgent.match(/ipad|iphone/i);
+    }
+    //创建文本元素
+    function createTextArea(text) {
+      textArea = document.createElement('textArea');
+      textArea.value = text;
+      textArea.style.width = 0;
+      textArea.style.height = 0;
+      textArea.clientHeight = 0;
+      textArea.clientWidth = 0;
+      document.body.appendChild(textArea);
+    }
+    //选择内容
+    function selectText() {
+      var range,
+        selection;
+
+      if (isOS()) {
+        range = document.createRange();
+        range.selectNodeContents(textArea);
+        selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        textArea.setSelectionRange(0, 999999);
+      } else {
+        textArea.select();
+      }
+    }
+
+    //复制到剪贴板
+    function copyToClipboard() {
+      try {
+        document.execCommand("Copy")
+      } catch (err) {
+        alert("复制错误！请手动复制！")
+      }
+      document.body.removeChild(textArea);
+    }
+
+    copy = function (text) {
+      createTextArea(text);
+      selectText();
+      copyToClipboard();
+    };
+
+    return {
+      copy: copy
+    };
+  })(window, document, navigator);
+
+  function copyCode(e) {
+    if (e.srcElement.tagName === 'SPAN' && e.srcElement.classList.contains('copy-code')) {
+      let code = e.currentTarget.querySelector('code');
+      var text = code.innerText;
+      if (e.srcElement.textContent === '复制成功') {
+        console.log('复制操作频率过高');
+        return;
+      }
+      e.srcElement.textContent = '复制成功';
+      (function (elem) {
+        setTimeout(() => {
+          if (elem.textContent === '复制成功') {
+            elem.textContent = '复制代码'
+          }
+        }, 1000);
+      })(e.srcElement)
+      Clipboard.copy(text);
+    }
+  }
+
+  let pres = document.querySelectorAll('pre');
+  pres.forEach(pre => {
+    let code = pre.querySelector('code');
+    let copyElem = document.createElement('span');
+    copyElem.classList.add('copy-code');
+    copyElem.textContent = '复制代码';
+    pre.appendChild(copyElem);
+    pre.onclick = copyCode
+  })
+</script>
+<script src="/media/js/motion.js"></script>
+
+<!-- <div class="search-mask" id="search_mask">
+  <div class="search-box">
+    <div class="search-title">
+      <i class="fa fa-search"></i>
+      <div class="input-box">
+        <input type="text" placeholder="搜索">
+      </div>
+      <i class="fa fa-times-circle"></i>
+    </div>
+    <div class="result">
+      
+      <div class="item">
+        <a class="result-title" href="https://iread.life/post/huan-ying-lai-dao/"" data-c="
+          &lt;p&gt;我的新博客&lt;/p&gt;
+">欢迎来到</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://iread.life/post/about/"" data-c="
+          &lt;blockquote&gt;
+&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;🏠 关于本站&lt;/h2&gt;
+&lt;h2 id=&#34;博主是谁&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;
+&lt;h2 id=&#34;兴趣爱好&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;
+&lt;h2 id=&#34;联系我呀&#34;&gt;📬 联系我呀&lt;/h2&gt;
+">关于</a>
+      </div>
+      
+      <div class="item">
+        <a class="result-title" href="https://iread.life/post/hello-gridea/"" data-c="
+          &lt;p&gt;&lt;strong&gt;自行解决问题通常只需要几十分钟,管理员调查解决问题需要几天至几周。以下是问题自助解决方案，可以自行解决95%以上的问题。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1、卸载蓝灯，然后删除整个文件夹&lt;code&gt;c:\Users&amp;lt;用户名&amp;gt;\AppData\Roaming\Lantern&lt;/code&gt;后，安装&lt;a href=&#34;https://iread.life/2020/07/02/%E8%93%9D%E7%81%AFLantern%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/&#34;&gt;最新版&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2、请使用管理员权限&lt;strong&gt;安装和启动&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;3、Windows防火墙配置错误: 请把Windows防火墙关闭再重新打开，或者一直保持关闭。&lt;/p&gt;
+&lt;p&gt;&lt;a id=&#34;more&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;4、系统配置错乱: 创建一个新的Windows用户后，在这个新Windows用户下安装&lt;a href=&#34;https://iread.life/2020/07/02/%E8%93%9D%E7%81%AFLantern%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/&#34;&gt;蓝灯最新版&lt;/a&gt;。控制面板-用户账户-管理账户-在电脑配置中添加新用户-将其他人添加到这台电脑。&lt;/p&gt;
+&lt;p&gt;5、蓝灯没有成功设置系统代理: 请打开蓝灯-设置-高级设置-管理系统代理-打勾。 Windows系统，请打开控制面板的Internet选项-&amp;gt;连接-&amp;gt;局域网设置-&amp;gt;代理。手工把代理设成地址127.0.0.1，端口。&lt;strong&gt;端口每个用户都不同，具体请见蓝灯-设置-高级设置里面显示的HTTP代理服务器端口。 Mac系统，请打开Safari-偏好设置-高级-更改设置（“代理”旁边）- HTTP代理 设成地址127.0.0.1，端口&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;6、确保系统时间正确，几小时也不能差。&lt;/p&gt;
+&lt;p&gt;7、请勿使用国产的杀毒软件，会干扰翻墙软件。&lt;/p&gt;
+&lt;p&gt;8、蓝灯与迅雷极速版冲突，请使用普通的迅雷。&lt;/p&gt;
+&lt;p&gt;9、host文件出错: Windows系统请删除 C:\Windows\System32\drivers\etc 下的host文件。Mac系统请删除 /private/etc/ 下的hosts文件&lt;/p&gt;
+&lt;p&gt;10、系统代理被篡改: 打开注册表编辑器，找到HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Internet Settings 分支，把它下面以 Proxy 打头的键值对（如ProxyEnable，ProxyOverride，有的是ProxyServer）改名或全部删除。&lt;/p&gt;
+&lt;p&gt;11、将Lantern更新到最新版本，重启Lantern更新或到&lt;a href=&#34;https://iread.life/2020/07/02/%E8%93%9D%E7%81%AFLantern%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/&#34;&gt;Get lantern download&lt;/a&gt; 下载手动更新。&lt;/p&gt;
+&lt;p&gt;12、Lantern续费后时间没更新：重启Lantern即可。&lt;/p&gt;
+&lt;p&gt;13、授权设备可以用如下方法： －在lantern界面左边菜单点击“授权设备使用专业版”，在里面输入购买时的邮箱，激活码就会发到你的邮箱，然后输入激活码即可； －在新设备选择“授权设备使用专业版”，该界面会收到验证码，然后请到专业版设备输入验证码。&lt;/p&gt;
+&lt;p&gt;14、建议使用chrome／firefox，不要用360这类浏览器。 如chrome不能用： 这种可能是chrome的代理被其他软件接管了，请到chrome://net-internals/#proxy 验证如下设置是否和lantern设置&amp;gt;高级设置里的一致。如果不一样，请检查软件或chrome的代理插件并修复。 Proxy server for HTTP: Proxy server for HTTPS:&lt;/p&gt;
+&lt;p&gt;如firefox不能用： 到设置里把代理改为“使用系统代理”&lt;/p&gt;
+&lt;p&gt;其他：不要使用乱七八糟的系统清理软件，可能会造成系统配置错乱。这样的情况只能重装系统，推荐Windows 10或者MacOS Mojave。微软已经不支持XP系统。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;自行解决问题通常只需要几十分钟,管理员调查解决问题需要几天至几周。&lt;/strong&gt; 若各位无法按照本帖自行解决，愿意等待管理员人为调查的，请在应用内报告问题。&lt;/p&gt;
+&lt;script async src=&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&#34;&gt;&lt;/script&gt;
+&lt;!-- iread.life@740-90 --&gt;
+&lt;p&gt;&lt;ins class=&#34;adsbygoogle&#34;
+     style=&#34;display:inline-block;width:740px;height:90px&#34;
+     data-ad-client=&#34;ca-pub-9623514389930510&#34;
+     data-ad-slot=&#34;9558655004&#34;&gt;&lt;/ins&gt;&lt;/p&gt;
+&lt;script&gt;
+     (adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/script&gt;">蓝灯常见问题解决办法</a>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<script>
+  // var escape = "[{&#34;content&#34;:&#34;&lt;p&gt;我的新博客&lt;/p&gt;\n&#34;,&#34;fileName&#34;:&#34;huan-ying-lai-dao&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;欢迎来到&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2021-03-19 11:18:46&#34;,&#34;dateFormat&#34;:&#34;2021-03-19&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://iread.life/post/huan-ying-lai-dao/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:1000,&#34;words&#34;:5,&#34;minutes&#34;:1},&#34;description&#34;:&#34;我的新博客\n&#34;,&#34;toc&#34;:&#34;&#34;},{&#34;content&#34;:&#34;&lt;blockquote&gt;\n&lt;p&gt;欢迎来到我的小站呀，很高兴遇见你！🤝&lt;/p&gt;\n&lt;/blockquote&gt;\n&lt;h2 id=\&#34;关于本站\&#34;&gt;🏠 关于本站&lt;/h2&gt;\n&lt;h2 id=\&#34;博主是谁\&#34;&gt;👨‍💻 博主是谁&lt;/h2&gt;\n&lt;h2 id=\&#34;兴趣爱好\&#34;&gt;⛹ 兴趣爱好&lt;/h2&gt;\n&lt;h2 id=\&#34;联系我呀\&#34;&gt;📬 联系我呀&lt;/h2&gt;\n&#34;,&#34;fileName&#34;:&#34;about&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;关于&#34;,&#34;tags&#34;:[],&#34;date&#34;:&#34;2019-01-25 19:09:48&#34;,&#34;dateFormat&#34;:&#34;2019-01-25&#34;,&#34;feature&#34;:&#34;&#34;,&#34;link&#34;:&#34;https://iread.life/post/about/&#34;,&#34;hideInList&#34;:true,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;1 min read&#34;,&#34;time&#34;:6000,&#34;words&#34;:31,&#34;minutes&#34;:1},&#34;description&#34;:&#34;\n欢迎来到我的小站呀，很高兴遇见你！🤝\n\n🏠 关于本站\n👨‍💻 博主是谁\n⛹ 兴趣爱好\n📬 联系我呀\n...&#34;,&#34;toc&#34;:&#34;&lt;ul class=\&#34;markdownIt-TOC\&#34;&gt;\n&lt;li&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%85%B3%E4%BA%8E%E6%9C%AC%E7%AB%99\&#34;&gt;🏠 关于本站&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%8D%9A%E4%B8%BB%E6%98%AF%E8%B0%81\&#34;&gt;👨‍💻 博主是谁&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD\&#34;&gt;⛹ 兴趣爱好&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\&#34;#%E8%81%94%E7%B3%BB%E6%88%91%E5%91%80\&#34;&gt;📬 联系我呀&lt;/a&gt;&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/li&gt;\n&lt;/ul&gt;\n&#34;},{&#34;content&#34;:&#34;&lt;p&gt;&lt;strong&gt;自行解决问题通常只需要几十分钟,管理员调查解决问题需要几天至几周。以下是问题自助解决方案，可以自行解决95%以上的问题。&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;1、卸载蓝灯，然后删除整个文件夹&lt;code&gt;c:\\Users&amp;lt;用户名&amp;gt;\\AppData\\Roaming\\Lantern&lt;/code&gt;后，安装&lt;a href=\&#34;https://iread.life/2020/07/02/%E8%93%9D%E7%81%AFLantern%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/\&#34;&gt;最新版&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;2、请使用管理员权限&lt;strong&gt;安装和启动&lt;/strong&gt;。&lt;/p&gt;\n&lt;p&gt;3、Windows防火墙配置错误: 请把Windows防火墙关闭再重新打开，或者一直保持关闭。&lt;/p&gt;\n&lt;p&gt;&lt;a id=\&#34;more\&#34;&gt;&lt;/a&gt;&lt;/p&gt;\n&lt;p&gt;4、系统配置错乱: 创建一个新的Windows用户后，在这个新Windows用户下安装&lt;a href=\&#34;https://iread.life/2020/07/02/%E8%93%9D%E7%81%AFLantern%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/\&#34;&gt;蓝灯最新版&lt;/a&gt;。控制面板-用户账户-管理账户-在电脑配置中添加新用户-将其他人添加到这台电脑。&lt;/p&gt;\n&lt;p&gt;5、蓝灯没有成功设置系统代理: 请打开蓝灯-设置-高级设置-管理系统代理-打勾。 Windows系统，请打开控制面板的Internet选项-&amp;gt;连接-&amp;gt;局域网设置-&amp;gt;代理。手工把代理设成地址127.0.0.1，端口。&lt;strong&gt;端口每个用户都不同，具体请见蓝灯-设置-高级设置里面显示的HTTP代理服务器端口。 Mac系统，请打开Safari-偏好设置-高级-更改设置（“代理”旁边）- HTTP代理 设成地址127.0.0.1，端口&lt;/strong&gt;。&lt;/p&gt;\n&lt;p&gt;6、确保系统时间正确，几小时也不能差。&lt;/p&gt;\n&lt;p&gt;7、请勿使用国产的杀毒软件，会干扰翻墙软件。&lt;/p&gt;\n&lt;p&gt;8、蓝灯与迅雷极速版冲突，请使用普通的迅雷。&lt;/p&gt;\n&lt;p&gt;9、host文件出错: Windows系统请删除 C:\\Windows\\System32\\drivers\\etc 下的host文件。Mac系统请删除 /private/etc/ 下的hosts文件&lt;/p&gt;\n&lt;p&gt;10、系统代理被篡改: 打开注册表编辑器，找到HKEY_CURRENT_USER/Software/Microsoft/Windows/CurrentVersion/Internet Settings 分支，把它下面以 Proxy 打头的键值对（如ProxyEnable，ProxyOverride，有的是ProxyServer）改名或全部删除。&lt;/p&gt;\n&lt;p&gt;11、将Lantern更新到最新版本，重启Lantern更新或到&lt;a href=\&#34;https://iread.life/2020/07/02/%E8%93%9D%E7%81%AFLantern%E4%B8%8B%E8%BD%BD%E5%9C%B0%E5%9D%80/\&#34;&gt;Get lantern download&lt;/a&gt; 下载手动更新。&lt;/p&gt;\n&lt;p&gt;12、Lantern续费后时间没更新：重启Lantern即可。&lt;/p&gt;\n&lt;p&gt;13、授权设备可以用如下方法： －在lantern界面左边菜单点击“授权设备使用专业版”，在里面输入购买时的邮箱，激活码就会发到你的邮箱，然后输入激活码即可； －在新设备选择“授权设备使用专业版”，该界面会收到验证码，然后请到专业版设备输入验证码。&lt;/p&gt;\n&lt;p&gt;14、建议使用chrome／firefox，不要用360这类浏览器。 如chrome不能用： 这种可能是chrome的代理被其他软件接管了，请到chrome://net-internals/#proxy 验证如下设置是否和lantern设置&amp;gt;高级设置里的一致。如果不一样，请检查软件或chrome的代理插件并修复。 Proxy server for HTTP: Proxy server for HTTPS:&lt;/p&gt;\n&lt;p&gt;如firefox不能用： 到设置里把代理改为“使用系统代理”&lt;/p&gt;\n&lt;p&gt;其他：不要使用乱七八糟的系统清理软件，可能会造成系统配置错乱。这样的情况只能重装系统，推荐Windows 10或者MacOS Mojave。微软已经不支持XP系统。&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;自行解决问题通常只需要几十分钟,管理员调查解决问题需要几天至几周。&lt;/strong&gt; 若各位无法按照本帖自行解决，愿意等待管理员人为调查的，请在应用内报告问题。&lt;/p&gt;\n&lt;script async src=\&#34;https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\&#34;&gt;&lt;/script&gt;\n&lt;!-- iread.life@740-90 --&gt;\n&lt;p&gt;&lt;ins class=\&#34;adsbygoogle\&#34;\n     style=\&#34;display:inline-block;width:740px;height:90px\&#34;\n     data-ad-client=\&#34;ca-pub-9623514389930510\&#34;\n     data-ad-slot=\&#34;9558655004\&#34;&gt;&lt;/ins&gt;&lt;/p&gt;\n&lt;script&gt;\n     (adsbygoogle = window.adsbygoogle || []).push({});\n&lt;/script&gt;&#34;,&#34;fileName&#34;:&#34;hello-gridea&#34;,&#34;abstract&#34;:&#34;&#34;,&#34;title&#34;:&#34;蓝灯常见问题解决办法&#34;,&#34;tags&#34;:[{&#34;name&#34;:&#34;Gridea&#34;,&#34;slug&#34;:&#34;orBDFinua&#34;,&#34;used&#34;:true,&#34;link&#34;:&#34;https://iread.life/tag/orBDFinua/&#34;}],&#34;date&#34;:&#34;2018-12-12 00:00:00&#34;,&#34;dateFormat&#34;:&#34;2018-12-12&#34;,&#34;feature&#34;:&#34;https://iread.life/post-images/hello-gridea.png&#34;,&#34;link&#34;:&#34;https://iread.life/post/hello-gridea/&#34;,&#34;hideInList&#34;:false,&#34;isTop&#34;:false,&#34;stats&#34;:{&#34;text&#34;:&#34;4 min read&#34;,&#34;time&#34;:188000,&#34;words&#34;:855,&#34;minutes&#34;:4},&#34;description&#34;:&#34;自行解决问题通常只需要几十分钟,管理员调查解决问题需要几天至几周。以下是问题自助解决方案，可以自行解决95%以上的问题。\n1、卸载蓝灯，然后删除整个文件夹c:\\Users&amp;lt;用户名&amp;gt;\\AppData\\Roaming\\Lantern...&#34;,&#34;toc&#34;:&#34;&#34;}]";
+  // var json = escape.substr(1, escape.length - 2);
+  // var datas = json.split(',');
+  // for (let i=0; i < datas.length; i++) {
+  //   let item = datas[i];
+  //   let attrs = item.split('34;:&#34')
+  //   debugger
+  //   console.log(datas[i])
+  // }
+  let escapeMap = new Map();
+  escapeMap.set('&#34;', '"');
+  escapeMap.set('&gt;', '>');
+  escapeMap.set('&#39;', "'");
+  escapeMap.set('&lt;', '<');
+  escapeMap.set('&quot;', '"');
+  escapeMap.set('&amp;', '&');
+</script> -->
+
+
+</html>
