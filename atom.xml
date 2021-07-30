@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iread.life</id>
     <title>趣读</title>
-    <updated>2021-07-30T15:42:52.829Z</updated>
+    <updated>2021-07-30T15:47:23.242Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iread.life"/>
     <link rel="self" href="https://iread.life/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://iread.life/images/avatar.png</logo>
     <icon>https://iread.life/favicon.ico</icon>
     <rights>All rights reserved 2021, 趣读</rights>
+    <entry>
+        <title type="html"><![CDATA[福利导航]]></title>
+        <id>https://iread.life/n_h40NdAy/</id>
+        <link href="https://iread.life/n_h40NdAy/">
+        </link>
+        <updated>2021-07-30T15:13:34.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[收录一些不错的 telegraph 频道]]></title>
         <id>https://iread.life/4yz4CbzYc/</id>
@@ -197,37 +204,6 @@ SS下载地址：<a href="https://ifun.cool/app/648.html">https://ifun.cool/app/
         <content type="html"><![CDATA[<h3 id="shadowsocks">Shadowsocks</h3>
 <p>SSR下载地址：<a href="https://ifun.cool/app/604.html">https://ifun.cool/app/604.html</a><br>
 SS下载地址：<a href="https://ifun.cool/app/648.html">https://ifun.cool/app/648.html</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【P站福利】关于PornHub的搜索小技巧]]></title>
-        <id>https://iread.life/pornhub/</id>
-        <link href="https://iread.life/pornhub/">
-        </link>
-        <updated>2021-03-22T01:36:19.000Z</updated>
-        <summary type="html"><![CDATA[<p><strong>P站</strong>号称全球第一大站，里面拥有非常丰富的资源，想要从中找出符合个人口味的资源，还真不是一件容易的事。</p>
-<p>所以，这里搜集一些搜索关键词，可以快速找到热门好看的资源，省时省力：</p>
-<h2 id="主播系列">主播系列</h2>
-<blockquote>
-<p>1.chinhbaby（swag-台湾-圣诞麋鹿装）<br>
-2.韩老师（主播-国产-童颜）<br>
-3.蜜桃臀女友  又叫nini（主播-国产-颜值高）<br>
-4.张柠檬（主播-国产-双人）<br>
-5.曼曼Man（主播-国产-身材好）<br>
-6.funnyg（swag-台湾-开箱、幻想系列）</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<p><strong>P站</strong>号称全球第一大站，里面拥有非常丰富的资源，想要从中找出符合个人口味的资源，还真不是一件容易的事。</p>
-<p>所以，这里搜集一些搜索关键词，可以快速找到热门好看的资源，省时省力：</p>
-<h2 id="主播系列">主播系列</h2>
-<blockquote>
-<p>1.chinhbaby（swag-台湾-圣诞麋鹿装）<br>
-2.韩老师（主播-国产-童颜）<br>
-3.蜜桃臀女友  又叫nini（主播-国产-颜值高）<br>
-4.张柠檬（主播-国产-双人）<br>
-5.曼曼Man（主播-国产-身材好）<br>
-6.funnyg（swag-台湾-开箱、幻想系列）</p>
-</blockquote>
 ]]></content>
     </entry>
 </feed>
