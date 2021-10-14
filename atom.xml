@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://v.iread.life</id>
     <title>趣读</title>
-    <updated>2021-10-11T07:21:26.352Z</updated>
+    <updated>2021-10-14T02:13:11.237Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://v.iread.life"/>
     <link rel="self" href="https://v.iread.life/atom.xml"/>
@@ -10,6 +10,39 @@
     <logo>https://v.iread.life/images/avatar.png</logo>
     <icon>https://v.iread.life/favicon.ico</icon>
     <rights>All rights reserved 2021, 趣读</rights>
+    <entry>
+        <title type="html"><![CDATA[Shadowsocks Windows 使用说明]]></title>
+        <id>https://v.iread.life/sj97HiQvL/</id>
+        <link href="https://v.iread.life/sj97HiQvL/">
+        </link>
+        <updated>2021-10-14T01:58:33.000Z</updated>
+        <summary type="html"><![CDATA[<h4 id="功能">功能</h4>
+<ol>
+<li>系统代理设置</li>
+<li>PAC 模式和全局模式</li>
+<li><a href="https://github.com/gfwlist/gfwlist">GFWList</a> 和用户规则</li>
+<li>支持 HTTP 代理</li>
+<li>支持多服务器切换</li>
+<li>支持 UDP 代理</li>
+<li>支持插件</li>
+</ol>
+<h4 id=""><a href="https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E#%E4%B8%8B%E8%BD%BD"></a>下载</h4>
+<p>下载 <a href="https://github.com/shadowsocks/shadowsocks-windows/releases">最新版</a>。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h4 id="功能">功能</h4>
+<ol>
+<li>系统代理设置</li>
+<li>PAC 模式和全局模式</li>
+<li><a href="https://github.com/gfwlist/gfwlist">GFWList</a> 和用户规则</li>
+<li>支持 HTTP 代理</li>
+<li>支持多服务器切换</li>
+<li>支持 UDP 代理</li>
+<li>支持插件</li>
+</ol>
+<h4 id=""><a href="https://github.com/shadowsocks/shadowsocks-windows/wiki/Shadowsocks-Windows-%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E#%E4%B8%8B%E8%BD%BD"></a>下载</h4>
+<p>下载 <a href="https://github.com/shadowsocks/shadowsocks-windows/releases">最新版</a>。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[福利导航]]></title>
         <id>https://v.iread.life/n_h40NdAy/</id>
@@ -215,21 +248,6 @@
 <p>美女帅哥资讯博主，视频自媒体，女神后花园。</p>
 <h3 id="2赏味女神探"><a href="https://weibo.com/u/6429328867">2.赏味女神探</a></h3>
 <p>美女资讯博主，颜控，校园女神探。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SSR/SS/V2ray/Clash等小飞机工具收集]]></title>
-        <id>https://v.iread.life/ssr/</id>
-        <link href="https://v.iread.life/ssr/">
-        </link>
-        <updated>2021-03-22T01:48:43.000Z</updated>
-        <summary type="html"><![CDATA[<h3 id="shadowsocks">Shadowsocks</h3>
-<p>SSR下载地址：<a href="https://ifun.cool/app/604.html">https://ifun.cool/app/604.html</a><br>
-SS下载地址：<a href="https://ifun.cool/app/648.html">https://ifun.cool/app/648.html</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<h3 id="shadowsocks">Shadowsocks</h3>
-<p>SSR下载地址：<a href="https://ifun.cool/app/604.html">https://ifun.cool/app/604.html</a><br>
-SS下载地址：<a href="https://ifun.cool/app/648.html">https://ifun.cool/app/648.html</a></p>
 ]]></content>
     </entry>
 </feed>
