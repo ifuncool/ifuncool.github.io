@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://v.iread.life</id>
     <title>趣读</title>
-    <updated>2021-12-19T02:30:35.436Z</updated>
+    <updated>2021-12-23T02:33:17.081Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://v.iread.life"/>
     <link rel="self" href="https://v.iread.life/atom.xml"/>
@@ -10,6 +10,95 @@
     <logo>https://v.iread.life/images/avatar.png</logo>
     <icon>https://v.iread.life/favicon.ico</icon>
     <rights>All rights reserved 2021, 趣读</rights>
+    <entry>
+        <title type="html"><![CDATA[科学上网]]></title>
+        <id>https://v.iread.life/PLqBy4KMD/</id>
+        <link href="https://v.iread.life/PLqBy4KMD/">
+        </link>
+        <updated>2021-12-22T08:34:04.000Z</updated>
+        <summary type="html"><![CDATA[<p>有关科学上网<br>
+获取更新及维护请查看维护文档</p>
+<table>
+<thead>
+<tr>
+<th>Clash客户端</th>
+<th><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">https://github.com/Fndroid/clash_for_windows_pkg/releases</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clash Android 客户端</td>
+<td><a href="https://github.com/Kr328/ClashForAndroid/releases">https://github.com/Kr328/ClashForAndroid/releases</a></td>
+</tr>
+<tr>
+<td>Clash 汉化</td>
+<td><a href="https://github.com/BoyceLig/Clash_Chinese_Patch/">https://github.com/BoyceLig/Clash_Chinese_Patch/releases</a></td>
+</tr>
+<tr>
+<td>Qv2ray Windows/MacOS客户端</td>
+<td><a href="https://github.com/Qv2ray/Qv2ray/releases">https://github.com/Qv2ray/Qv2ray/releases</a></td>
+</tr>
+<tr>
+<td>V2rayN Windows客户端</td>
+<td><a href="https://github.com/2dust/v2rayN/releases">https://github.com/2dust/v2rayN/releases</a></td>
+</tr>
+<tr>
+<td>V2rayU MacOS 客户端</td>
+<td><a href="https://github.com/yanue/V2rayU/releases">https://github.com/yanue/V2rayU/releases</a></td>
+</tr>
+<tr>
+<td>V2rayU Android 客户端</td>
+<td><a href="https://github.com/2dust/v2rayNG/releases">https://github.com/2dust/v2rayNG/releases</a></td>
+</tr>
+<tr>
+<td>ClashDotNetFramework</td>
+<td><a href="https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/v1.0.4">https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/v1.0.4</a></td>
+</tr>
+</tbody>
+</table>
+]]></summary>
+        <content type="html"><![CDATA[<p>有关科学上网<br>
+获取更新及维护请查看维护文档</p>
+<table>
+<thead>
+<tr>
+<th>Clash客户端</th>
+<th><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">https://github.com/Fndroid/clash_for_windows_pkg/releases</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Clash Android 客户端</td>
+<td><a href="https://github.com/Kr328/ClashForAndroid/releases">https://github.com/Kr328/ClashForAndroid/releases</a></td>
+</tr>
+<tr>
+<td>Clash 汉化</td>
+<td><a href="https://github.com/BoyceLig/Clash_Chinese_Patch/">https://github.com/BoyceLig/Clash_Chinese_Patch/releases</a></td>
+</tr>
+<tr>
+<td>Qv2ray Windows/MacOS客户端</td>
+<td><a href="https://github.com/Qv2ray/Qv2ray/releases">https://github.com/Qv2ray/Qv2ray/releases</a></td>
+</tr>
+<tr>
+<td>V2rayN Windows客户端</td>
+<td><a href="https://github.com/2dust/v2rayN/releases">https://github.com/2dust/v2rayN/releases</a></td>
+</tr>
+<tr>
+<td>V2rayU MacOS 客户端</td>
+<td><a href="https://github.com/yanue/V2rayU/releases">https://github.com/yanue/V2rayU/releases</a></td>
+</tr>
+<tr>
+<td>V2rayU Android 客户端</td>
+<td><a href="https://github.com/2dust/v2rayNG/releases">https://github.com/2dust/v2rayNG/releases</a></td>
+</tr>
+<tr>
+<td>ClashDotNetFramework</td>
+<td><a href="https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/v1.0.4">https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/v1.0.4</a></td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[福利资源三]]></title>
         <id>https://v.iread.life/OhZUSwYYX/</id>
@@ -191,29 +280,6 @@ magnet:?xt=urn:btih:8652192ee1533f55d8a5774a440c39a90af92e16</p>
 折扣码：baicai<br>
 怎么说呢，我还是禁不住诱惑啊！五折下来年付40每月500G，就当40块堵他不跑路吧，买不买自行衡量目前速度还不错</p>
 <p>购买地址：<a href="https://www.baicaivpn.com//auth/register?code=jbIC">https://www.baicaivpn.com//auth/register?code=jbIC</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[APP合集]]></title>
-        <id>https://v.iread.life/lHw8uYtly/</id>
-        <link href="https://v.iread.life/lHw8uYtly/">
-        </link>
-        <updated>2021-04-04T03:20:53.000Z</updated>
-        <summary type="html"><![CDATA[<h3 id="玉米视频">玉米视频</h3>
-<p>#内侧版本,无需越狱<br>
-*地址：<a href="https://bit.ly/31hYdgR">https://bit.ly/31hYdgR</a><br>
-*需要的自行下载(请挂国外VPN下载)</p>
-<h3 id="50度灰">50度灰</h3>
-<p>#全球首款重口中文SM<br>
-*地址：<a href="http://club.i50dh.net/chan/h50426/37Jm">http://club.i50dh.net/chan/h50426/37Jm</a></p>
-]]></summary>
-        <content type="html"><![CDATA[<h3 id="玉米视频">玉米视频</h3>
-<p>#内侧版本,无需越狱<br>
-*地址：<a href="https://bit.ly/31hYdgR">https://bit.ly/31hYdgR</a><br>
-*需要的自行下载(请挂国外VPN下载)</p>
-<h3 id="50度灰">50度灰</h3>
-<p>#全球首款重口中文SM<br>
-*地址：<a href="http://club.i50dh.net/chan/h50426/37Jm">http://club.i50dh.net/chan/h50426/37Jm</a></p>
 ]]></content>
     </entry>
 </feed>
