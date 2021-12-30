@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://v.iread.life</id>
     <title>趣读</title>
-    <updated>2021-12-23T02:33:17.081Z</updated>
+    <updated>2021-12-30T01:35:54.529Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://v.iread.life"/>
     <link rel="self" href="https://v.iread.life/atom.xml"/>
@@ -18,85 +18,9 @@
         <updated>2021-12-22T08:34:04.000Z</updated>
         <summary type="html"><![CDATA[<p>有关科学上网<br>
 获取更新及维护请查看维护文档</p>
-<table>
-<thead>
-<tr>
-<th>Clash客户端</th>
-<th><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">https://github.com/Fndroid/clash_for_windows_pkg/releases</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Clash Android 客户端</td>
-<td><a href="https://github.com/Kr328/ClashForAndroid/releases">https://github.com/Kr328/ClashForAndroid/releases</a></td>
-</tr>
-<tr>
-<td>Clash 汉化</td>
-<td><a href="https://github.com/BoyceLig/Clash_Chinese_Patch/">https://github.com/BoyceLig/Clash_Chinese_Patch/releases</a></td>
-</tr>
-<tr>
-<td>Qv2ray Windows/MacOS客户端</td>
-<td><a href="https://github.com/Qv2ray/Qv2ray/releases">https://github.com/Qv2ray/Qv2ray/releases</a></td>
-</tr>
-<tr>
-<td>V2rayN Windows客户端</td>
-<td><a href="https://github.com/2dust/v2rayN/releases">https://github.com/2dust/v2rayN/releases</a></td>
-</tr>
-<tr>
-<td>V2rayU MacOS 客户端</td>
-<td><a href="https://github.com/yanue/V2rayU/releases">https://github.com/yanue/V2rayU/releases</a></td>
-</tr>
-<tr>
-<td>V2rayU Android 客户端</td>
-<td><a href="https://github.com/2dust/v2rayNG/releases">https://github.com/2dust/v2rayNG/releases</a></td>
-</tr>
-<tr>
-<td>ClashDotNetFramework</td>
-<td><a href="https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/v1.0.4">https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/v1.0.4</a></td>
-</tr>
-</tbody>
-</table>
 ]]></summary>
         <content type="html"><![CDATA[<p>有关科学上网<br>
 获取更新及维护请查看维护文档</p>
-<table>
-<thead>
-<tr>
-<th>Clash客户端</th>
-<th><a href="https://github.com/Fndroid/clash_for_windows_pkg/releases">https://github.com/Fndroid/clash_for_windows_pkg/releases</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Clash Android 客户端</td>
-<td><a href="https://github.com/Kr328/ClashForAndroid/releases">https://github.com/Kr328/ClashForAndroid/releases</a></td>
-</tr>
-<tr>
-<td>Clash 汉化</td>
-<td><a href="https://github.com/BoyceLig/Clash_Chinese_Patch/">https://github.com/BoyceLig/Clash_Chinese_Patch/releases</a></td>
-</tr>
-<tr>
-<td>Qv2ray Windows/MacOS客户端</td>
-<td><a href="https://github.com/Qv2ray/Qv2ray/releases">https://github.com/Qv2ray/Qv2ray/releases</a></td>
-</tr>
-<tr>
-<td>V2rayN Windows客户端</td>
-<td><a href="https://github.com/2dust/v2rayN/releases">https://github.com/2dust/v2rayN/releases</a></td>
-</tr>
-<tr>
-<td>V2rayU MacOS 客户端</td>
-<td><a href="https://github.com/yanue/V2rayU/releases">https://github.com/yanue/V2rayU/releases</a></td>
-</tr>
-<tr>
-<td>V2rayU Android 客户端</td>
-<td><a href="https://github.com/2dust/v2rayNG/releases">https://github.com/2dust/v2rayNG/releases</a></td>
-</tr>
-<tr>
-<td>ClashDotNetFramework</td>
-<td><a href="https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/v1.0.4">https://github.com/ClashDotNetFramework/ClashDotNetFramework/releases/v1.0.4</a></td>
-</tr>
-</tbody>
-</table>
 ]]></content>
     </entry>
     <entry>
